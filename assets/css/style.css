@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Cairo:100,200,300,400,500,600,700');
+.about-section-container{
+    height: 100vh;
+ 
+  background: url("../images/exo-image.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
