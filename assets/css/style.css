@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Cairo:100,200,300,400,500,600,700');
+
+/************background image, logo, statement*********/
 .about-section-container{
     height: 100vh;
  
-  background: url("../images/exo-image.jpg") no-repeat center center fixed; 
+  background: url("../images/exo-index-pic.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,4 +14,30 @@
   justify-content: center;
   position: relative;
 
+}
+
+.introduction-header{
+    font-family: "Cairo",sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    font-style: bold;
+    float: left;
+
+}
+.jumbotron{
+    background-color: #cab6b6
+}
+.intro-statement{
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    float: left;
+
+}
+.intro-part{
+    float:left;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-right: 40px;
 }
