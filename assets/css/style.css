@@ -19,19 +19,19 @@
 .introduction-header{
     font-family: "Cairo",sans-serif;
     font-weight: 600;
-    color: #fafafa;
+    color: #e65057;
     font-style: bold;
-    float: left;
+    
 
 }
 .jumbotron{
-    background-color: #cab6b6
+    background-color: #cab6b6;
 }
 .intro-statement{
-    color: #fafafa;
+    color: #e65057;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    float: left;
+    float: right;
 
 }
 .intro-part{
