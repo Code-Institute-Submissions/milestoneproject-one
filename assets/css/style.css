@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Cairo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Arvo:100,200,300,400,500,600,700');
 
 /************background image, logo, statement*********/
-.about-section-container{
+.introduction-section-container{
     height: 100vh;
  
   background: url("../images/exo-index-pic.png") no-repeat center center fixed; 
@@ -13,31 +13,39 @@
   align-items: center;
   justify-content: center;
   position: relative;
-
+  padding: 0;
+  margin: 0;
 }
+.intro-portion{
+    background-color: transparent;
+    min-width: 60vh;
+    }
+
 
 .introduction-header{
-    font-family: "Cairo",sans-serif;
-    font-weight: 600;
-    color: #e65057;
-    font-style: bold;
-    
-
-}
-.jumbotron{
-    background-color: #cab6b6;
-}
+    font-family: "Avro",sans-serif;
+    color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    }
 .intro-statement{
-    color: #e65057;
+    color:#f3f3f3;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    float: right;
+    font-weight: 500;
+    font-style: bold;
+    padding: 0;
+    margin: 0;
 
 }
-.intro-part{
-    float:left;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    margin-right: 40px;
+.img-thumbnail {
+    padding: 0;
+    border: 0px;
+    
+    width: 100px;
+    height:100px;
+
+}
+.intro-pic{
+    padding: 0;
+    margin: 0;
 }
