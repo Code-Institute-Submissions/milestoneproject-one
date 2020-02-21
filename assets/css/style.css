@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Arvo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /************background image, logo, statement*********/
+/***introduction section***/
 .introduction-section-container{
     height: 100vh;
  
@@ -23,7 +24,7 @@
 
 
 .introduction-header{
-    font-family: "Avro",sans-serif;
+    font-family: "Exo",sans-serif;
     color: #f3f3f3;
     padding: 0;
     margin: 0;
@@ -48,4 +49,46 @@
 .intro-pic{
     padding: 0;
     margin: 0;
+}
+/***end of introduction section***/
+/***about section***/
+.bg-color-about{
+background-color: #a04242;
+}
+/*.about-section-details{
+    
+    padding: inherit;
+    margin: auto;
+
+}*/
+.about-title{
+    color: #f3f3f3;
+    font-family: "Exo", sans-serif;
+    margin-top: 50px;
+}
+.about-container{
+     min-height: 60vh;
+     background-color: #97a8b1;
+}
+.about-underline{
+    background-color: #999090;
+    width: 180px;
+    height:4px;
+    margin-left: 0;
+
+}
+.about-para{
+    color:  #f3f3f3;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+.about-picture{
+    background: url("../images/exo-index-image.jpg");
+    background-size: center;
+    background-position: cover;
+    
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+
 }
