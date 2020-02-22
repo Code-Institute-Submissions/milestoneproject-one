@@ -16,13 +16,43 @@
 
 <body>
 <header>
+	<!--Navigation bar section-->
+	<nav class="navbar navbar-expand-md navbar-light bg-danger sticky-top navbar-section">
+		<div class="container-fluid">
+			<a class="navbar-brand"
+				href="#"><img src="assets/images/Picture2.png" alt="navbar logo" class="img-fluid navbar-logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
 
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gallery</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Music</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Tour</a>
+						</li>
+					</ul>
+
+				</div>
+		</div>
+	</nav>
+	<!--end of Navigation bar section-->
 </header>
 <!--Introduction section-->
 <div class="container-fluid introduction-section-container">
 
 	<div class="row intro-portion">
-		<div class="col-md-4">
+		<div class="col-sm-6 col-md-4">
 			<div class="d-none d-sm-block">
 				<img src="assets/images/exo-logo2.jpg" class="img-fluid img-thumbnail justify-center intro-pic" alt="logo">
 </div>
@@ -38,11 +68,10 @@
 	<div class="container-fluid about-container">
 		<div class="row">
 			<!--about picture section-->
-			<div class="col-md-6 about-picture">
-	
+            <div class="col-md-6 col-lg-4 about-picture">
 			</div>
 			<!--about text section-->
-			<div class="col-md-6">
+			<div class="col-sm-4 col-md-6 col-lg-8">
 				<h1 class="about-title"><strong> About Us </strong></h1>
 				<hr class="about-underline">
 				<p class="lead about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione deleniti
@@ -57,7 +86,22 @@
 	</div>
 <!--end of about section-->
 <footer>
-</footer>
+<!--Social media footer section-->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social-links padding">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
 
+<!--end of social media footer section-->
+</footer>
 </body>
 </html>

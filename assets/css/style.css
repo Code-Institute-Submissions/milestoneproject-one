@@ -5,15 +5,17 @@
 .introduction-section-container{
     height: 100vh;
  
-  background: url("../images/exo-index-pic.png") no-repeat center center fixed; 
+  background: url("../images/exo-index-pic.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: center;
   padding: 0;
   margin: 0;
 }
@@ -51,16 +53,9 @@
     margin: 0;
 }
 /***end of introduction section***/
-/***about section***/
-.bg-color-about{
-background-color: #a04242;
-}
-/*.about-section-details{
-    
-    padding: inherit;
-    margin: auto;
 
-}*/
+/***about section***/
+
 .about-title{
     color: #f3f3f3;
     font-family: "Exo", sans-serif;
@@ -82,13 +77,23 @@ background-color: #a04242;
     font-family: "Roboto" , sans-serif;
     font-weight: 300;
     text-align: justify;
+   
 }
 .about-picture{
-    background: url("../images/exo-index-image.jpg");
-    background-size: center;
-    background-position: cover;
+    background: url("../images/exo-index-image.jpg") center/cover no-repeat;
+   margin:0;
+   padding: 0;
     
-    /*background-attachment: fixed;*/
-    background-repeat: no-repeat;
-
 }
+/***end of about section***/
+
+/***navigation bar section***/
+.navbar-logo{
+width: 200 px;
+height: 100 px;
+padding: 0;
+margin: 0;
+background: transparent;
+}
+/***end of navigation bar section***/
+/***footer section***/
