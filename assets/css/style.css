@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /************background image, logo, statement*********/
+/***navigation bar section***/
+.navbar-logo{
+width: 200 px;
+height: 100 px;
+padding: 0;
+margin: 0;
+background: transparent;
+}
+.nav{
+    padding: .8rem;
+}
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+/***end of navigation bar section***/
+
 /***introduction section***/
 .introduction-section-container{
     height: 100vh;
@@ -87,13 +104,8 @@
 }
 /***end of about section***/
 
-/***navigation bar section***/
-.navbar-logo{
-width: 200 px;
-height: 100 px;
-padding: 0;
-margin: 0;
-background: transparent;
-}
-/***end of navigation bar section***/
+
 /***footer section***/
+.footer-section-container{
+    background-color: #7c7e81;
+}
