@@ -11,7 +11,8 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>EXO BAND</title>
 </head>
 
@@ -32,7 +33,7 @@
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link hvr-sweep-to-bottom" href="galleryone.html">Gallery</a>
+								<a class="nav-link hvr-sweep-to-bottom" href="#">Gallery</a>
 							</li>
 
 							<li class="nav-item">
@@ -49,54 +50,74 @@
 		</nav>
 		<!--end of Navigation bar section-->
 	</header>
-	<!--Introduction section-->
-	<div class="container-fluid introduction-section-container">
+	<!--Gallery Jumbotron heading section-->
+	   <div class="jumbotron text-center">
+       <h1> Exo Image Gallery</h1>
+       <p class="lead"> Below You can find your favourite clicks of Exo!!!</p>
+       </div>
+		<!--end of Gallery Jumbotron heading section-->
 
-		<div class="row intro-portion">
-			<div class="col-sm-6 col-md-4">
-				<div class="d-none d-sm-block">
-					<img src="assets/images/exo-logo2.jpg" class="img-fluid img-thumbnail justify-center intro-pic" alt="logo">
-</div>
-				</div>
-				<div class="col-sm-6 col-md-5">
-					<h1 class="introduction-header display-4 text-center"><strong>EXO</strong></h1>
-					<p class="lead intro-statement text-center">We are One</p>
-				</div>
-			</div>
-		</div>
-		<!--end of Introduction section-->
-		<!--about section-->
-		<div class="container-fluid about-container">
+		
+		<!--picture gallery of exo-->
+		<div class="container-gallery">
 			<div class="row">
-				<!--about picture section-->
-				<div class="col-md-6 col-lg-4 about-picture">
-				</div>
-				<!--about text section-->
-				<div class="col-sm-4 col-md-6 col-lg-8">
-					<h1 class="about-title"><strong> About Us </strong></h1>
-					<hr class="about-underline">
-					<p class="lead about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-						deleniti
-						officia rem id accusamus expedita veniam alias optio provident placeat blanditiis, quas
-						temporibus
-						consequuntur repellat totam ad tenetur nihil distinctio.</p>
-					<p class="lead about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-						deleniti
-						officia rem id accusamus expedita veniam alias optio provident placeat blanditiis, quas
-						temporibus
-						consequuntur repellat totam ad tenetur nihil distinctio.</p>
-                    <p class="lead about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-						deleniti
-						officia rem id accusamus expedita veniam alias optio provident placeat blanditiis, quas
-						temporibus
-						consequuntur repellat totam ad tenetur nihil distinctio.</p>
-                    
-				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<img src="imagesone/img1.jpg" class="gallery-image">
+                    <button type="button" class= "btn btn-light btn--gallery" data-toggle="modal" data-target="#galleryModal"> View</button>
+		        </div>
+		
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<img src="imagesone/img2.jpg" class="gallery-image">
+		        </div>
+		
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<img src="imagesone/img3.jpg" class="gallery-image">
+		        </div>
+		
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<img src="imagesone/img4.jpg" class="gallery-image">
+		        </div>
+		
+								<div class="col-lg-3 col-md-4 col-sm-6">
+									<img src="imagesone/img5.jpg" class="gallery-image">
+		        </div>
+		
+									<div class="col-lg-3 col-md-4 col-sm-6">
+										<img src="imagesone/img6.jpg" class="gallery-image">
+		        </div>
+		
+										<div class="col-lg-3 col-md-4 col-sm-6">
+											<img src="imagesone/img7.jpg" class="gallery-image">
+		        </div>
+		
+											<div class="col-lg-3 col-md-4 col-sm-6">
+												<img src="imagesone/img8.jpg" class="gallery-image">
+		        </div>
+		
+												<div class="col-lg-3 col-md-4 col-sm-6">
+													<img src="imagesone/img9.jpg" class="gallery-image">
+		        </div>
+		
+													<div class="col-lg-3 col-md-4 col-sm-6">
+														<img src="imagesone/img10.jpg" class="gallery-image">
+		        </div>
+		
+														<div class="col-lg-3 col-md-4 col-sm-6">
+															<img src="imagesone/img11.jpg" class="gallery-image">
+		        </div>
+		
+															<div class="col-lg-3 col-md-4 col-sm-6">
+																<img src="imagesone/img12.jpg" class="gallery-image">
+		        </div>
+		
+															</div>
+														</div>
+        
+        <!--end of picture gallery of exo-->
 
-			</div>
-		</div>
-		<!--end of about section-->
-
+        <!--modal for animation -->
+        
+        <!--end of modal for animation-->
 		<!--Social media connect section-->
 		<div class="container-fluid social-media-container padding">
 			<div class="row text-center padding">
@@ -141,7 +162,7 @@
 			</div>
 		</footer>
         
-        <!--modal section-->
+        <!--modal section for footer-->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -177,13 +198,38 @@
 			</div>
 		</div>
 	</div>
-    <!--end of modal section-->
+    <!--end of modal section for footer-->
     <!--end of footer section-->
+
+    <!--modal section for gallery-->
+    <div class="modal" tabindex="-1" role="dialog" id="galleryModal" aria-labelledby="galleryModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="galleryModalLabel">Image</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+				</div>
+				<div class="modal-body">
+					<form>
+                                <img src="imagesone/img1.jpg" class="image-width">
+			
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+    <!--end of modal section for gallery-->
 
     <!--script section-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 <!--end of script section-->
 </body>
 
