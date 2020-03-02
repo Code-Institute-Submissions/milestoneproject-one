@@ -195,19 +195,24 @@ height: 70px;
     margin: auto;
     text-align: center;
     }
-/*.btn--gallery{
-    align-items: center;
+.btn-info{
+    background-color: #e4a7a7;
+    color: #f3f3f3;
+    border: 0;
+    font-weight: bold;
+    }
 
-}*/
+    
 .picture-gallery{
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
-/*.picture-gallery .heading{
-    margin-bottom: 50px;
-    text-align: center;
-}*/
+.gallery-jumbotron{
+
+    background-color: #e4a7a7;
+    color: #ffffff;
+}
 .gallery-jumbotron h1{
     font-family: "Exo", sans-serif;
     font-size: 4em;
@@ -215,6 +220,7 @@ height: 70px;
     margin-bottom: 50px;
     text-align: center;
     text-transform: capitalize;
+    
 }
 .picture-gallery h6{
     font-size: 20px;

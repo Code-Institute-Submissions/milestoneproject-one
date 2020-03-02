@@ -11,8 +11,8 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
-    
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>EXO BAND</title>
 </head>
 
@@ -51,166 +51,330 @@
 		<!--end of Navigation bar section-->
 	</header>
 	<!--Gallery Jumbotron heading section-->
-	   <div class="jumbotron text-center gallery-jumbotron">
-       <h1> Exo Image Gallery</h1>
-       <p class="lead"> Below You can find your favourite clicks of Exo!!!</p>
-       </div>
-		<!--end of Gallery Jumbotron heading section-->
+	<div class="jumbotron text-center gallery-jumbotron">
+		<h1> Exo Image Gallery</h1>
+		<p class="lead"> Below You can find your favourite clicks of Exo!!!</p>
+	</div>
+	<!--end of Gallery Jumbotron heading section-->
 
-		
-		<!--picture gallery of exo-->
-		<div class="container picture-gallery">
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
-                    <img src="imagesone/img1.jpg" class="gallery-image">
-                    <a href="imagesone/img1.jpg" class="image-width"><button type="button">View</button>
-                    </a>
-                    
-		        </div>
-		
-					<div class="col-lg-3 col-md-4 col-sm-6">
-						<img src="imagesone/img2.jpg" class="gallery-image">
-		        </div>
-		
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<img src="imagesone/img3.jpg" class="gallery-image">
-		        </div>
-		
-							<div class="col-lg-3 col-md-4 col-sm-6">
-								<img src="imagesone/img4.jpg" class="gallery-image">
-		        </div>
-		
-								<div class="col-lg-3 col-md-4 col-sm-6">
-									<img src="imagesone/img5.jpg" class="gallery-image">
-		        </div>
-		
-									<div class="col-lg-3 col-md-4 col-sm-6">
-										<img src="imagesone/img6.jpg" class="gallery-image">
-		        </div>
-		
-										<div class="col-lg-3 col-md-4 col-sm-6">
-											<img src="imagesone/img7.jpg" class="gallery-image">
-		        </div>
-		
-											<div class="col-lg-3 col-md-4 col-sm-6">
-												<img src="imagesone/img8.jpg" class="gallery-image">
-		        </div>
-		
-												<div class="col-lg-3 col-md-4 col-sm-6">
-													<img src="imagesone/img9.jpg" class="gallery-image">
-		        </div>
-		
-													<div class="col-lg-3 col-md-4 col-sm-6">
-														<img src="imagesone/img10.jpg" class="gallery-image">
-		        </div>
-		
-														<div class="col-lg-3 col-md-4 col-sm-6">
-															<img src="imagesone/img11.jpg" class="gallery-image">
-		        </div>
-		
-															<div class="col-lg-3 col-md-4 col-sm-6">
-																<img src="imagesone/img12.jpg" class="gallery-image">
-		        </div>
-		
-															</div>
-														</div>
-        
-        <!--end of picture gallery of exo-->
 
-        <!--modal for animation -->
-        
-        <!--end of modal for animation-->
-		<!--Social media connect section-->
-		<div class="container-fluid social-media-container padding">
-			<div class="row text-center padding">
-				<div class="col-12">
-					<h1 class="social-connect">Connect</h1>
-				</div>
-				<div class="col-12 social-links padding">
-					<a href="#"><i class="fa fa-facebook"></i>
-                    <span class="sr-only">Facebook</span>
-                    </a>
-					<a href="#"><i class="fa fa-twitter"></i>
-                    <span class="sr-only">Twitter</span>
-                    </a>
-					<a href="#"><i class="fa fa-instagram"></i>
-                    <span class="sr-only">Instagram</span>
-                    </a>
-					<a href="#"><i class="fa fa-youtube"></i>
-                    <span class="sr-only">You Tube</span>
-                    </a>
-				</div>
-			</div>
-		</div>
+	<!--picture gallery of exo-->
+	<div class="container picture-gallery">
+		<div class="row">
+			<!-- start of Modal 1 !-->
+			<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
 
-		<!--end of social media connect section-->
+				<a class="d-block">
+					<img class="gallery-image" src="imagesone/img1.jpg" data-toggle="modal" data-target="#image-one">
+                    </a>
 
-		<!--footer section-->
-        <footer>
-			<div class="container-fluid footer-section-container padding">
-				<div class="row no-gutters text-center">
-					<div class="col-12">
-						<h4 class="signup-text">Sign Up Now for an Early Member!! Hurry Up!!</h4>
+					<!-- start of Modal Body 1 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-one" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img1.jpg" data-toggle="modal" data-target="#image-one">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 1 !-->
+
 					</div>
-					<div class="col-12">
-						<button type="button" class= "btn btn-info btn--footer" data-toggle="modal" data-target="#signUpModal"> Sign Up Now!</button>
-						
-					</div>
-					<div class="col-12">
-						<hr>
-						<h5 class="copyright"> &copy; All rights reserved: Exo Group</h5>
-					</div>
-				</div>
-			</div>
-		</footer>
-        
-        <!--modal section for footer-->
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Sign Up To Whiskey Drop</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<!-- end of Modal 1 !-->
+
+                    <!-- start of Modal 2 !-->
+					<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+						<a class="d-block">
+							<img class="gallery-image" src="imagesone/img2.jpg" data-toggle="modal" data-target="#image-two">
+                    </a>
+
+							<!-- start of Modal Body 2 !-->
+							<div class="modal" tabindex="-1" role="dialog" id="image-two" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
-				</div>
-				<div class="modal-body">
-					<form>
-                        <div class="form-group">
-							<label for="firstName">First Name</label>
-							<input type="text" class="form-control" id="firstName" required>
-							
-						</div>
-                        <div class="form-group">
-							<label for="secondName">Second Name</label>
-							<input type="text" class="form-control" id="secondName" required>
-							
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-						</div>
-			
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-success">Submit</button>
-					</form>
+										</div>
+										<div class="modal-body">
+											<img class="image-width" src="imagesone/img2.jpg" data-toggle="modal" data-target="#image-two">
 				</div>
 
+										</div>
+									</div>
+								</div>
+								<!-- end of Modal body 2!-->
+
+							</div>
+                            <!-- end of Modal 2 !-->
+
+                            <!-- start of Modal 3 !-->
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+
+                            <a class="d-block">
+					<img class="gallery-image" src="imagesone/img3.jpg" data-toggle="modal" data-target="#image-three">
+                    </a>
+
+					<!-- start of Modal Body 3 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-three" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img3.jpg" data-toggle="modal" data-target="#image-three">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 3 !-->
+
+							</div>
+                            <!-- end of Modal 3 !-->
+                            <!--start of modal 4-->
+
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+								<a class="d-block">
+					<img class="gallery-image" src="imagesone/img4.jpg" data-toggle="modal" data-target="#image-four">
+                    </a>
+
+					<!-- start of Modal Body 4 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-four" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img4.jpg" data-toggle="modal" data-target="#image-four">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 4 !-->
+
+							</div>
+                        <!--end of modal 4-->
+
+                        <!--start of modal 5-->
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+								<a class="d-block">
+					<img class="gallery-image" src="imagesone/img5.jpg" data-toggle="modal" data-target="#image-five">
+                    </a>
+
+					<!-- start of Modal Body 5 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-five" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img5.jpg" data-toggle="modal" data-target="#image-five">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 5 !-->
+
+							</div>
+                        <!--end of modal 5-->
+                        <!--start of modal 6-->
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+								<a class="d-block">
+					<img class="gallery-image" src="imagesone/img6.jpg" data-toggle="modal" data-target="#image-six">
+                    </a>
+
+					<!-- start of Modal Body 6 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-six" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img6.jpg" data-toggle="modal" data-target="#image-six">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 6 !-->
+
+							</div>
+                        <!---end of modal 6-->
+                        <!--start of modal 7-->
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+								<a class="d-block">
+					<img class="gallery-image" src="imagesone/img7.jpg" data-toggle="modal" data-target="#image-seven">
+                    </a>
+
+					<!-- start of Modal Body 7!-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-seven" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img7.jpg" data-toggle="modal" data-target="#image-seven">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 7 !-->
+
+							</div>
+                        <!--end of modal 7-->
+                        <!--start of modal 8-->
+							<div class="col-lg-3 col-md-4 col-sm-6 gallery-column">
+								<a class="d-block">
+					<img class="gallery-image" src="imagesone/img8.jpg" data-toggle="modal" data-target="#image-eight">
+                    </a>
+
+					<!-- start of Modal Body 8 !-->
+					<div class="modal" tabindex="-1" role="dialog" id="image-eight" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                         <span aria-hidden="true">&times;</span>
+                                     </button>
+								</div>
+								<div class="modal-body">
+									<img class="image-width" src="imagesone/img8.jpg" data-toggle="modal" data-target="#image-eight">
+				                </div>
+
+								</div>
+							</div>
+						</div>
+						<!-- end of Modal body 8 !-->
+
+							</div>
+                        <!--end of modal 8-->
+							
+
+					</div>
 			</div>
-		</div>
-	</div>
-    <!--end of modal section for footer-->
-    <!--end of footer section-->
 
-    
+			<!--end of picture gallery of exo-->
 
-    <!--script section-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<!--end of script section-->
+			<!--Social media connect section-->
+			<div class="container-fluid social-media-container padding">
+				<div class="row text-center padding">
+					<div class="col-12">
+						<h1 class="social-connect">Connect</h1>
+					</div>
+					<div class="col-12 social-links padding">
+						<a href="#"><i class="fa fa-facebook"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+						<a href="#"><i class="fa fa-twitter"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+						<a href="#"><i class="fa fa-instagram"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+						<a href="#"><i class="fa fa-youtube"></i>
+							<span class="sr-only">You Tube</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!--end of social media connect section-->
+
+			<!--footer section-->
+			<footer>
+				<div class="container-fluid footer-section-container padding">
+					<div class="row no-gutters text-center">
+						<div class="col-12">
+							<h4 class="signup-text">Sign Up Now for an Early Member!! Hurry Up!!</h4>
+						</div>
+						<div class="col-12">
+							<button type="button" class= "btn btn-secondary btn--footer" data-toggle="modal" data-target="#signUpModal"> Sign Up Now!</button>
+
+						</div>
+						<div class="col-12">
+							<hr>
+							<h5 class="copyright"> &copy; All rights reserved: Exo Group</h5>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!--modal section for footer-->
+			<div class="modal" tabindex="-1" role="dialog" id="signUpModal" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Sign Up To Whiskey Drop</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="firstName">First Name</label>
+									<input type="text" class="form-control" id="firstName" required>
+
+						</div>
+									<div class="form-group">
+										<label for="secondName">Second Name</label>
+										<input type="text" class="form-control" id="secondName" required>
+
+						</div>
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-success">Submit</button>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--end of modal section for footer-->
+			<!--end of footer section-->
+
+
+
+			<!--script section-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+			<!--end of script section-->
 </body>
 
 </html>
