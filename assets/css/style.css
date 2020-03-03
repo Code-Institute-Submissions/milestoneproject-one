@@ -195,12 +195,6 @@ height: 70px;
     margin: auto;
     text-align: center;
     }
-.btn-info{
-    background-color: #e4a7a7;
-    color: #f3f3f3;
-    border: 0;
-    font-weight: bold;
-    }
 
     
 .picture-gallery{
@@ -243,4 +237,30 @@ height: 70px;
     text-decoration: none;
 }
 
-/***********end of picture gallery section******/d
+/***********end of picture gallery section******/
+
+/***********start of video section******/
+ .music-container{
+     /*margin: 20px;
+     padding: 10px;*/
+     margin: 0;
+     padding: 0;
+     
+ }
+.music-column{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.music-heading{
+    text-align: center;
+    
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.music-heading span{
+    background-color: #e4a7a7;
+    padding: 6px;
+    margin: 10px;
+}
+/***********end of video section******/
