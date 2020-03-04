@@ -264,3 +264,14 @@ height: 70px;
     margin: 10px;
 }
 /***********end of video section******/
+
+/***********start of video selling section******/
+
+.video-image{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+/***********end of video selling section******/
