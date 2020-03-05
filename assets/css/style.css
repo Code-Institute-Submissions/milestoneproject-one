@@ -241,11 +241,11 @@ height: 70px;
 
 /***********start of video section******/
  .music-container{
-     /*margin: 20px;
-     padding: 10px;*/
+    
      margin: 0;
      padding: 0;
-     
+      background: url("../images/exo-band-bgpic3.jpg") center/ cover no-repeat;
+
  }
 .music-column{
     margin-bottom: 10px;
@@ -266,6 +266,14 @@ height: 70px;
 /***********end of video section******/
 
 /***********start of video selling section******/
+.video-selling-container{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: url("../images/exo-band-bgpic1.jpg") center/ cover no-repeat;
+
+
+}
 
 .video-image{
     width: 400px;
@@ -273,5 +281,34 @@ height: 70px;
     padding: 50px;
     margin: 50px;
     justify-content: center;
+}
+.video-card{
+    align-items: center;
+    border: 0;
+    background: transparent;
+}
+.video-selling-heading{
+    
+    font-family: "Exo", sans-serif;
+    color: #f3f3f3;
+    font-weight: bold;
+    text-align: center;
+}
+.video-selling-heading span{
+     background-color: #b18299;
+     padding: 5px;
+}
+.exo-card-one{
+    font-weight: bold;
+    color: #f3f3f3;
+   font-size: 30px;
+    
+}
+.exo-card-one span{
+    background-color: #b18299;
+}
+.btn--card1{
+    font-size: 20px;
+    text-align: center;
 }
 /***********end of video selling section******/
