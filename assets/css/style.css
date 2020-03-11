@@ -98,7 +98,7 @@ height: 70px;
 }
 .about-underline{
     background-color: #999090;
-    width: 180px;
+    width: 120px;
     height:4px;
     margin-left: 0;
 
@@ -314,3 +314,24 @@ height: 70px;
     text-align: center;
 }
 /***********end of video selling section******/
+
+/***********start of tour section******/
+
+.tour-container{
+    overflow: hidden;
+}
+
+.tour-heading{
+   
+    font-family: "Exo" , sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.table{
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+
+/***********end of tour section******/
