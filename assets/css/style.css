@@ -3,8 +3,8 @@
 /************background image, logo, statement*********/
 /***navigation bar section***/
 .navbar-logo{
-width: 200 px;
-height: 100 px;
+/*width: 200 px;
+height: 100 px;*/
 padding: 0;
 margin: 0;
 background: transparent;
@@ -65,7 +65,7 @@ height: 70px;
     color:#f3f3f3;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-style: bold;
+    font-weight: bold;
     padding: 0;
     margin: 0;
     font-size: 20px;
@@ -125,7 +125,7 @@ height: 70px;
     font-family: "Exo",sans-serif;
     font-weight: 500;
     color:  #f3f3f3;
-    font-style: bold;
+    /*font-style: bold;*/
 }
 .social-media-container{
     background-color: #7c7e81;
@@ -150,7 +150,7 @@ height: 70px;
     text-align: center;
     padding: 1.8rem;
     margin-bottom: 50px;
-    size: inherit;
+    /*size: inherit;*/
 }
     
 .social-links a i:hover{
@@ -316,6 +316,16 @@ height: 70px;
 /***********end of video selling section******/
 
 /***********start of tour section******/
+.container-fluid.tour-container {
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    padding-right: 10px;
+    
+    width: 100%;
+    align-items: center;
+    
+}
 
 .tour-container{
     overflow: hidden;
