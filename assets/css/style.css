@@ -1,372 +1,419 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /************background image, logo, statement*********/
+
+
 /***navigation bar section***/
-.navbar-logo{
-/*width: 200 px;
+
+.navbar-logo {
+	/*width: 200 px;
 height: 100 px;*/
-padding: 0;
-margin: 0;
-background: transparent;
+	padding: 0;
+	margin: 0;
+	background: transparent;
 }
-.nav{
-    padding: .8rem;
+
+.nav {
+	padding: .8rem;
 }
-.navbar-nav li{
-    padding-right: 30px;
-    
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
+
+.navbar-nav li {
+	padding-right: 30px;
+	font-family: "Exo", sans-serif;
+	font-size: 20px;
 }
+
 .navbar-nav li a {
-    color: #f3f3f3 !important;
+	color: #f3f3f3 !important;
 }
-.hvr-sweep-to-bottom::before{               
-background-color: rgb(0, 0, 0, 0.2);
-height: 70px;
+
+.hvr-sweep-to-bottom::before {
+	background-color: rgb(0, 0, 0, 0.2);
+	height: 70px;
 }
+
 
 /***end of navigation bar section***/
 
+
 /***introduction section***/
-.introduction-section-container{
-    height: 100vh;
- 
-  background: url("../images/exo-index-pic.png"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: inherit;
-  padding: 0;
-  margin: 0;
+
+.introduction-section-container {
+	height: 100vh;
+	background: url("../images/exo-index-pic.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: inherit;
+	padding: 0;
+	margin: 0;
 }
-.intro-portion{
-    background-color: transparent;
-    /*min-width: 60vh;*/
-    
-    }
 
-
-.introduction-header{
-    font-family: "Exo",sans-serif;
-    color: #f3f3f3;
-    padding: 0;
-    margin: 0;
-    font-size: 500%;
-    text-shadow: 1px 1px 15px #000000;
-    }
-.intro-statement{
-    color:#f3f3f3;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-
+.intro-portion {
+	background-color: transparent;
+	/*min-width: 60vh;*/
 }
+
+.introduction-header {
+	font-family: "Exo", sans-serif;
+	color: #f3f3f3;
+	padding: 0;
+	margin: 0;
+	font-size: 500%;
+	text-shadow: 1px 1px 15px #000000;
+}
+
+.intro-statement {
+	color: #f3f3f3;
+	font-family: "Roboto", sans-serif;
+	/*font-weight: 600;*/
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
 .img-thumbnail {
-    padding: 0;
-    border: 0px;
-    
-    width: 120px;
-    height:120px;
+	padding: 0;
+	border: 0px;
+	width: 120px;
+	height: 120px;
+}
 
+.intro-pic {
+	padding: 0;
+	margin: 0;
 }
-.intro-pic{
-    padding: 0;
-    margin: 0;
-}
+
+
 /***end of introduction section***/
+
 
 /***about section***/
 
-.about-title{
-    color: #f3f3f3;
-    font-family: "Exo", sans-serif;
-    margin-top: 50px;
+.about-title {
+	color: #f3f3f3;
+	font-family: "Exo", sans-serif;
+	margin-top: 50px;
 }
-.about-container{
-     /*min-height: 80vh;*/
-     background-color: #97a8b1;
-}
-.about-underline{
-    background-color: #999090;
-    width: 120px;
-    height:4px;
-    margin-left: 0;
 
+.about-container {
+	
+	background-color: #97a8b1;
 }
-.about-para{
-    color:  #f3f3f3;
-    font-family: "Roboto" , sans-serif;
-    font-weight: 300;
-    text-align: justify;
-   
+
+.about-underline {
+	background-color: #999090;
+	width: 120px;
+	height: 4px;
+	margin-left: 0;
 }
-.about-picture{
-    background: url("../images/exo-index-image.jpg") center/cover no-repeat;
-   margin:0;
-   padding: 0;
-    
+
+.about-para {
+	color: #f3f3f3;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	text-align: justify;
 }
+
+.about-picture {
+	background: url("../images/exo-index-image.jpg") center/cover no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+
 /***end of about section***/
 
-/***social media section***/
-.social-connect{
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-family: "Exo",sans-serif;
-    font-weight: 500;
-    color:  #f3f3f3;
-    /*font-style: bold;*/
-}
-.social-media-container{
-    background-color: #7c7e81;
 
+/***social media section***/
+
+.social-connect {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-family: "Exo", sans-serif;
+	font-weight: 500;
+	color: #f3f3f3;
+	/*font-style: bold;*/
 }
-.social-links a{
-    padding: 3rem;
-    font-size: 3em;
-    margin-top: 50px;
-    
-    
+
+.social-media-container {
+	background-color: #7c7e81;
 }
-.social-links a i{
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    line-height: .8em;
-   /* color: #ee2255;
+
+.social-links a {
+	/*padding: 3rem;*/
+	font-size: 3em;
+	margin-top: 50px;
+}
+
+.social-links a i {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	line-height: .8em;
+	/* color: #ee2255;
     background-color: #ed655e;*/
-    color:  #f3f3f3;
-    background-color: #454749;  
-    text-align: center;
-    padding: 1.8rem;
-    margin-bottom: 50px;
-    /*size: inherit;*/
+	color: #f3f3f3;
+	background-color: #454749;
+	text-align: center;
+	padding: 1.8rem;
+	margin-bottom: 50px;
+	/*size: inherit;*/
 }
-    
-.social-links a i:hover{
-    background-color: #ed655e;
+
+.social-links a i:hover {
+	background-color: #ed655e;
 }
 
 /***end of social media section***/
+
+
 /***footer section***/
-.footer-section-container{
-    background-color: #454749;
+
+.footer-section-container {
+	background-color: #454749;
 }
-.btn--footer{
-    margin-top: 10px;
-    
+
+.btn--footer {
+	margin-top: 10px;
 }
-.btn--footer:hover{
-    background-color: #ed655e;
+
+.btn--footer:hover {
+	background-color: #ed655e;
 }
-.signup-text{
-    margin-top: 20px;
-    color: #f3f3f3;
-    font-size: 30px;
-    font-weight: 300;
+
+.signup-text {
+	margin-top: 20px;
+	color: #f3f3f3;
+	font-size: 30px;
+	font-weight: 300;
 }
-.copyright{
-    font-family: "Exo", sans-serif;
-    color:  #f3f3f3;
-    font-size: 20px;
+
+.copyright {
+	font-family: "Exo", sans-serif;
+	color: #f3f3f3;
+	font-size: 20px;
 }
+
+
 /***********end of footer section******/
 
+
 /***********picture gallery section******/
-.gallery-image{
-    width: 225px;
-    height: 225px;
-    padding: 10px;
-    margin: 10px;
+
+.gallery-image {
+	width: 225px;
+	height: 225px;
+	padding: 10px;
+	margin: 10px;
 }
 
-.image-width{
-    width:100%;
+.image-width {
+	width: 100%;
 }
-.gallery-column{
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-    }
 
-    
-.picture-gallery{
-    padding-top: 60px;
-    padding-bottom: 60px;
-
+.gallery-column {
+	padding: 5px;
+	margin: auto;
+	text-align: center;
 }
-.gallery-jumbotron{
 
-    background-color: #e4a7a7;
-    color: #ffffff;
+.picture-gallery {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
-.gallery-jumbotron h1{
+
+.gallery-jumbotron {
+	background-color: #e4a7a7;
+	color: #ffffff;
+}
+
+.gallery-jumbotron h1 {
+	font-family: "Exo", sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 50px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.picture-gallery h6 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.gallery-jumbotron p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.picture-gallery img {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.picture-gallery a {
+	color: #9c949c;
+}
+
+.picture-gallery a:hover {
+	text-decoration: none;
+}
+
+.photo-heading{
     font-family: "Exo", sans-serif;
-    font-size: 4em;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: center;
-    text-transform: capitalize;
-    
-}
-.picture-gallery h6{
-    font-size: 20px;
-    font-weight: bold;
-}
-.gallery-jumbotron p{
-    font-size: 30px;
-    font-weight: bold;
+	font-weight: bold;
+	text-align: center;
+    color: #be5656;
 }
 
-.picture-gallery img{
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-
+.photo-heading i{
+    color:#be5656;
 }
-
-.picture-gallery a{
-    color:#9c949c;
-}
-.picture-gallery a:hover{
-    text-decoration: none;
-}
-
 /***********end of picture gallery section******/
 
-/***********start of video section******/
- .music-container{
-    
-     margin: 0;
-     padding: 0;
-     overflow-x: hidden;
-     /* background: url("../images/exo-band-bgpic3.jpg") center/ cover no-repeat;*/
 
- }
-.music-column{
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-   
-  
+/***********start of video section******/
+
+.music-container {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
 }
-.music-heading{
-    text-align: center;
-    
-    /*color: #ffffff;*/
-    font-size: 1.5em;
-    font-weight: bold;
+
+.music-column {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
-.music-body{
-    overflow-x: hidden;
+
+.music-heading {
+	text-align: center;
+	font-family: "Exo", sans-serif;
+	font-weight: bold;
+    color: #be5656;
 }
+
+.music heading i{
+    color: #be5656;
+}
+
+.music-body {
+	overflow-x: hidden;
+}
+
 
 /***********end of video section******/
 
+
 /***********start of video selling section******/
-.video-selling-container{
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    
 
-
+.video-selling-container {
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
 }
 
+.video-image {
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+	margin: 50px;
+	justify-content: center;
+}
 
-.video-image{
-    width: 400px;
-    height: 400px;
-    padding: 50px;
-    margin: 50px;
-    justify-content: center;
+.video-card {
+	align-items: center;
+	border: 0;
+	background: transparent;
 }
-.video-card{
-    align-items: center;
-    border: 0;
-    background: transparent;
+
+.video-selling-heading {
+	font-family: "Exo", sans-serif;
+	color: #be5656;
+	font-weight: bold;
+	text-align: center;
 }
-.video-selling-heading{
-    
-    font-family: "Exo", sans-serif;
-    /*color: #f3f3f3;*/
-    font-weight: bold;
-    text-align: center;
+
+.video-selling-heading i{
+    color: #be5656;
 }
-/*.video-selling-heading span{
-     background-color: #b18299;
-     padding: 5px;
-}*/
-.exo-card-one{
-    font-weight: bold;
-    color: #f3f3f3;
-   font-size: 30px;
-    
+
+.exo-card-one {
+	font-weight: bold;
+	color: #f3f3f3;
+	font-size: 30px;
 }
-.exo-card-one span{
-    background-color: #b18299;
+
+.exo-card-one span {
+	background-color: #b18299;
 }
-.btn--card1{
-    font-size: 20px;
-    text-align: center;
+
+.btn--card1 {
+	font-size: 20px;
+	text-align: center;
 }
+
 
 /***********end of video selling section******/
 
+
 /***********start of tour section******/
+
 .container-fluid.tour-container {
-    padding: 0;
-    margin: 0;
-    
-    width: 100%;
-    align-items: center;
-    
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	align-items: center;
 }
 
-.tour-container{
-    overflow: hidden;
+.tour-container {
+	overflow: hidden;
+}
+
+.tour-heading {
+	font-family: "Exo", sans-serif;
+	font-weight: bold;
+	color: #be5656;
 }
 
 .tour-heading{
-   
-    font-family: "Exo" , sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    
-}
-.table{
-   overflow: hidden;
-   margin: 0;
-   padding: 0;
-}
-@media(min-width:300px){
-    .btn--tour{
-        font-size: 15px;
-    }
+    color: #be5656;
 }
 
-.booking-header{
-   
-    font-family: "Exo" , sans-serif;
-    font-weight: bold;
-    text-align: center;
-    
+.table {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
 }
-.btn--booking{
-    
-    font-size: 20px;
-    margin: 20px;
-    
+
+@media(min-width:300px) {
+	.btn--tour {
+		font-size: 12px;
+	}
 }
-.btn--booking:hover{
-    background-color: #ed655e;
+
+.booking-header {
+	font-family: "Exo", sans-serif;
+	font-weight: bold;
+	text-align: center;
 }
+
+.btn--booking {
+	font-size: 20px;
+	margin: 20px;
+}
+
+.btn--booking:hover {
+	background-color: #ed655e;
+}
+
+
 /***********end of tour section******/

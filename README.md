@@ -28,7 +28,9 @@ The main aim of this band is to make sure the fans recieves updated information 
 ### Features to be added in future
 * Contact Page :- Right now, there is no direct contact with the band. It's just through mails. But an active toll free number and an address should be implemented in future. In accordance with that, details of an agency who takes care of the band should be included in the extension.
  
+ ## Technologies used
 
-
-
-
+* HTML5 : The webpages are created using html.
+* CSS3 : The styling of the pages are done using an external css page.
+* Bootstrap 4 : The whole site is created using the Bootstrap framework to make it responsive and for the ease of doing the project.
+### Plugins
