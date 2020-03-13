@@ -166,6 +166,9 @@ height: 70px;
     margin-top: 10px;
     
 }
+.btn--footer:hover{
+    background-color: #ed655e;
+}
 .signup-text{
     margin-top: 20px;
     color: #f3f3f3;
@@ -244,13 +247,15 @@ height: 70px;
     
      margin: 0;
      padding: 0;
-     overflow: hidden;
+     overflow-x: hidden;
      /* background: url("../images/exo-band-bgpic3.jpg") center/ cover no-repeat;*/
 
  }
 .music-column{
     margin-bottom: 10px;
     padding-bottom: 10px;
+   
+  
 }
 .music-heading{
     text-align: center;
@@ -259,11 +264,10 @@ height: 70px;
     font-size: 1.5em;
     font-weight: bold;
 }
-/*.music-heading span{
-    background-color: #e4a7a7;
-    padding: 6px;
-    margin: 10px;
-}*/
+.music-body{
+    overflow-x: hidden;
+}
+
 /***********end of video section******/
 
 /***********start of video selling section******/
@@ -271,11 +275,12 @@ height: 70px;
     align-items: center;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    /*background: url("../images/exo-band-bgpic1.jpg") center/ cover no-repeat;*/
+    overflow-x: hidden;
+    
 
 
 }
+
 
 .video-image{
     width: 400px;
@@ -313,6 +318,7 @@ height: 70px;
     font-size: 20px;
     text-align: center;
 }
+
 /***********end of video selling section******/
 
 /***********start of tour section******/
@@ -359,5 +365,8 @@ height: 70px;
     font-size: 20px;
     margin: 20px;
     
+}
+.btn--booking:hover{
+    background-color: #ed655e;
 }
 /***********end of tour section******/
