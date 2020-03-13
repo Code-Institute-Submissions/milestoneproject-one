@@ -28,9 +28,24 @@ The main aim of this band is to make sure the fans recieves updated information 
 ### Features to be added in future
 * Contact Page :- Right now, there is no direct contact with the band. It's just through mails. But an active toll free number and an address should be implemented in future. In accordance with that, details of an agency who takes care of the band should be included in the extension.
  
- ## Technologies used
+ ## TECHNOLOGIES USED
+* HTML5 : The webpages are created using html with latest features. More information can be get from the site :- https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+* CSS3 : The styling of the pages like beautifying fonts, hovering effects, colouring etc. are done using an external css page. More information can be get from the site :- https://www.w3.org/Style/CSS/Overview.en.html
+* Bootstrap 4 : The whole site is created using the mobile first Bootstrap framework to make it responsive and for the ease of doing the project. More information can be get from the site :- https://getbootstrap.com/
+* Git : Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. More information can be obtained from this site :- https://git-scm.com/
+* Github : GitHub brings the developers around the globe together and provides an environment to discover, share, and build better software.  More information can be obtained from this site :- https://github.com/
+* Gitpod : Gitpod is an online IDE and it can be activated from any github pages. More information can be obtained from this site :- https://www.gitpod.io/
+* Chrome DevTools : It is a set of built-in web development tools in google chrome browser and helps to identify and edit errors very firstly to make an error-free website. More information can be obtained from this site :- https://developers.google.com/web/tools/chrome-devtools
+* W3C Markup Validation Service : It is a free W3C service which helps to validate the html and css codes to reduce the bugs pops up during the coding.  More information can be obtained from this site :- Validate your HTML via: https://validator.w3.org/
+Validate your CSS via: https://jigsaw.w3.org/css-validator/
+* Formatting Tool : I have used an online formatter for beautifying my html and css codes. More information can be obtained from this site :- https://www.freeformatter.com/
+## TESTING
+* Desktop : In the desktop, I have tested in chrome browser and internet explorer and understood that it works and all the links, modals, buttons and grid system are worked well with the browsers.
+* Mobile : In the Mobile view, I have tested with iphone 6/7/8, iphone6/7/8 plus, galaxy s5, ipad and ipad pro and found it works responsive and resized acordingly.
+* Issues found : The main issue I have dealt with was the overflow issue as I could see some white spaces at the right end mainly while in the mobile view. But rectified using overflow element style elements.
+## DEPLOYMENT
+1. First we have to create an account in the github, that is in https://github.com/. The URL to my account is https://github.com/RenuVenugopal
+2. Then I have created a repository called "milestoneproject-one" there. And it's URL is https://github.com/RenuVenugopal/milestoneproject-one to create my first milestone project and upload all the pages.
+3. 
 
-* HTML5 : The webpages are created using html.
-* CSS3 : The styling of the pages are done using an external css page.
-* Bootstrap 4 : The whole site is created using the Bootstrap framework to make it responsive and for the ease of doing the project.
-### Plugins
+
