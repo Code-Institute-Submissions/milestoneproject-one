@@ -46,6 +46,34 @@ Validate your CSS via: https://jigsaw.w3.org/css-validator/
 ## DEPLOYMENT
 1. First we have to create an account in the github, that is in https://github.com/. The URL to my account is https://github.com/RenuVenugopal
 2. Then I have created a repository called "milestoneproject-one" there. And it's URL is https://github.com/RenuVenugopal/milestoneproject-one to create my first milestone project and upload all the pages.
-3. 
+3. To publish the project for viewing it on the web, I went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, I clicked on the drop-down menu to select master branch as a publishing source and saved it. Refreshed the github page, and you are then given a url where your page is published; Your site is published at  https://renuvenugopal.github.io/milestoneproject-one/
+4. To run this code on your local machine, you would go to my respository at https://github.com/BobHerold/RobertHeroldportfolio and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. To continue with cloning, you would;
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste this URL; https://github.com/BobHerold/RobertHeroldportfolio.git Press Enter. Your local clone will be created.
 
+For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
+## CREDITS
+### Content
+1. I am mostly make use of bootstrap 4 documentation for getting the entire structure of the framework that has been used in different pages. That is https://getbootstrap.com/docs/4.0/getting-started/introduction/
+2. I have been making use of google fonts to style my fonts. The link is https://fonts.google.com/
+3. I have used the concept of navbar from a youtube tutorial that is https://www.youtube.com/watch?v=9cKsq14Kfsw&t=1479s (Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3)
+4. I also used the font awesome to make my pages more user friendly. The link is https://fontawesome.com/icons?d=gallery
+5. I also make use of some hover effects to make my pages more impressive. The link is https://ianlunn.github.io/Hover/
+6. I also used the text for the about section from the following site : https://www.allkpop.com/forum/threads/difference-between-exo-l-aeri-y-so-many-different-exo-fandom-names.294848/
+
+### Media
+1. All the pictures of the EXO band and their logo, I used are found out from the google images after the tedious effort of searching. And the link for images of EXO band is https://www.google.com/search?sxsrf=ALeKk0341s1vNJWJcHOLgzAXWKOyfw5xcw:1584139873016&q=exo+images&tbm=isch&source=univ&sa=X&ved=2ahUKEwj_-J7zxJjoAhWJvosKHYXfCsoQsAR6BAgKEAE
+    and link for logo image is https://www.google.com/search?q=exo+logo&tbm=isch&ved=2ahUKEwjsrriqxZjoAhXNtyoKHfegClYQ2-cCegQIABAA&oq=exo+logo&gs_l=img.3..35i39l2j0j0i67j0l6.70044.71075..73074...0.0..0.134.385.3j1......0....1..gws-wiz-img.xWUjzn_cRns&ei=1A5sXuz0Ls3vqgH3waqwBQ
+2. The videos also taken from a music lover's youtube channel who are the supporters of all the famous music bands especially in USA. The link is https://www.youtube.com/user/SMTOWN
+3. I also used the link details of Amazon and Apple music in the music pages and the links are on the respective page itself. 
+4. In addition to that, I have also used the different social media links.
+5. I have gone through different tutorials like stackoverflow: https://stackoverflow.com/, W#Schools Online Web Tutorials: https://www.w3schools.com/ for getting ideas for designig the websites.
+
+### ACKNOWLEDGEMENTS
+* Code Institute Tutors: The tutors Anna, Samantha and Michael helped me a lot for doing this project. They always tried to give accurate reponses very quickly. 
+* My Mentor: ADEGBENGA ADEYE is also very supportive and always guid me to move in the right track and open to all queries throughout the project.
+* Code Institute Slack Channels: I also received lot of valuable information from it.
+* Fiona Apple project: I received inspiration for this project is from the project which is done by a code institute student Aleesang. The link is https://aleesang.github.io/milestone-project-one
+* My sister: The whole inspiration to select this band EXO for my milestone project comes from my sister Veena Venugopal, an undergraduate student in University of Texas Arlington, USA. She has helped me to understand more about the band and also their history and famous songs.
