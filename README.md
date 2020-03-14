@@ -47,10 +47,10 @@ Validate your CSS via: https://jigsaw.w3.org/css-validator/
 1. First we have to create an account in the github, that is in https://github.com/. The URL to my account is https://github.com/RenuVenugopal
 2. Then I have created a repository called "milestoneproject-one" there. And it's URL is https://github.com/RenuVenugopal/milestoneproject-one to create my first milestone project and upload all the pages.
 3. To publish the project for viewing it on the web, I went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, I clicked on the drop-down menu to select master branch as a publishing source and saved it. Refreshed the github page, and you are then given a url where your page is published; Your site is published at  https://renuvenugopal.github.io/milestoneproject-one/
-4. To run this code on your local machine, you would go to my respository at https://github.com/BobHerold/RobertHeroldportfolio and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. To continue with cloning, you would;
+4. To run this code on your local machine, you would go to my respository at https://github.com/RenuVenugopal/milestoneproject-one and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. To continue with cloning, you would;
 * Open Git Bash
 * Change the current working directory to the location where you want the cloned directory to be made.
-* Type git clone, and then paste this URL; https://github.com/BobHerold/RobertHeroldportfolio.git Press Enter. Your local clone will be created.
+* Type git clone, and then paste this URL; https://github.com/RenuVenugopal/milestoneproject-one.git Press Enter. Your local clone will be created.
 
 For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
