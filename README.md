@@ -1,4 +1,5 @@
 # EXO BAND .....We are One !!!
+
 EXO is a South Korean – Chinese boy band created by Lee Soo Man,founder of SM Entertainment, in 2011. 
 Originally formed of 8 Korean members and 4 Chinese members, the 12-member group showcased their official debut on April 8, 2012 with their first mini album Mama.
 Mama peaked the South Korean Gaon Musical Chart and placed 8th on the Billboard World Albums Chart.
@@ -42,6 +43,12 @@ Validate your CSS via: https://jigsaw.w3.org/css-validator/
 ## TESTING
 * Desktop : In the desktop, I have tested in chrome browser and internet explorer and understood that it works and all the links, modals, buttons and grid system are worked well with the browsers.
 * Mobile : In the Mobile view, I have tested with iphone 6/7/8, iphone6/7/8 plus, galaxy s5, ipad and ipad pro and found it works responsive and resized acordingly.
+* Responsiveness : I have tested the responsiveness of website with 1.http://ami.responsivedesign.is/ and found it is working flawlessly.
+* Sign Up and Check Availability Button :
+    1. Click on the respective buttons.
+    2. Try to enter email address, if it is not in correct form, it will asked to enter in correct format.
+    3. If you are missed any inputs in any text field and try to submit, it will asked to fill out the field first and press submit.
+
 * Issues found : The main issue I have dealt with was the overflow issue as I could see some white spaces at the right end mainly while in the mobile view. But rectified using overflow element style elements.
 ## DEPLOYMENT
 1. First we have to create an account in the github, that is in https://github.com/. The URL to my account is https://github.com/RenuVenugopal
@@ -77,3 +84,4 @@ For more information about the above process; https://help.github.com/en/github/
 * Code Institute Slack Channels: I also received lot of valuable information from it.
 * Fiona Apple project: I received inspiration for this project is from the project which is done by a code institute student Aleesang. The link is https://aleesang.github.io/milestone-project-one
 * My sister: The whole inspiration to select this band EXO for my milestone project comes from my sister Veena Venugopal, an undergraduate student in University of Texas Arlington, USA. She has helped me to understand more about the band and also their history and famous songs.
+* Bob Herold: I have got an overall idea of Readme file from his file. 
