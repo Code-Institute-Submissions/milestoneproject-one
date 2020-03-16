@@ -70,7 +70,6 @@ For more information about the above process; https://help.github.com/en/github/
 4. I also used the font awesome to make my pages more user friendly. The link is https://fontawesome.com/icons?d=gallery
 5. I also make use of some hover effects to make my pages more impressive. The link is https://ianlunn.github.io/Hover/
 6. I also used the text for the about section from the following site : https://www.allkpop.com/forum/threads/difference-between-exo-l-aeri-y-so-many-different-exo-fandom-names.294848/
-
 ### Media
 1. All the pictures of the EXO band and their logo, I used are found out from the google images after the tedious effort of searching. And the link for images of EXO band is https://www.google.com/search?sxsrf=ALeKk0341s1vNJWJcHOLgzAXWKOyfw5xcw:1584139873016&q=exo+images&tbm=isch&source=univ&sa=X&ved=2ahUKEwj_-J7zxJjoAhWJvosKHYXfCsoQsAR6BAgKEAE
     and link for logo image is https://www.google.com/search?q=exo+logo&tbm=isch&ved=2ahUKEwjsrriqxZjoAhXNtyoKHfegClYQ2-cCegQIABAA&oq=exo+logo&gs_l=img.3..35i39l2j0j0i67j0l6.70044.71075..73074...0.0..0.134.385.3j1......0....1..gws-wiz-img.xWUjzn_cRns&ei=1A5sXuz0Ls3vqgH3waqwBQ

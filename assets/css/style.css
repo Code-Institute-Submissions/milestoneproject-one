@@ -6,8 +6,6 @@
 /***navigation bar section***/
 
 .navbar-logo {
-	/*width: 200 px;
-height: 100 px;*/
 	padding: 0;
 	margin: 0;
 	background: transparent;
@@ -57,7 +55,6 @@ height: 100 px;*/
 
 .intro-portion {
 	background-color: transparent;
-	/*min-width: 60vh;*/
 }
 
 .introduction-header {
@@ -72,7 +69,6 @@ height: 100 px;*/
 .intro-statement {
 	color: #f3f3f3;
 	font-family: "Roboto", sans-serif;
-	/*font-weight: 600;*/
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
@@ -140,7 +136,6 @@ height: 100 px;*/
 	font-family: "Exo", sans-serif;
 	font-weight: 500;
 	color: #f3f3f3;
-	/*font-style: bold;*/
 }
 
 .social-media-container {
@@ -148,7 +143,6 @@ height: 100 px;*/
 }
 
 .social-links a {
-	/*padding: 3rem;*/
 	font-size: 3em;
 	margin-top: 50px;
 }
@@ -158,8 +152,6 @@ height: 100 px;*/
 	height: 2em;
 	border-radius: 50%;
 	line-height: .8em;
-	/* color: #ee2255;
-    background-color: #ed655e;*/
 	color: #f3f3f3;
 	background-color: #454749;
 	text-align: center;
@@ -207,13 +199,6 @@ height: 100 px;*/
 
 
 /***********picture gallery section******/
-
-/*.gallery-image {
-	width: 225px;
-	height: 225px;
-	padding: 10px;
-	margin: 10px;
-}*/
 
 .image-width {
 	width: 100%;
