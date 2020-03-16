@@ -1,4 +1,5 @@
 # EXO BAND .....We are One !!!
+![Responsive Image](assets/images/responsive.png)
 
 EXO is a South Korean – Chinese boy band created by Lee Soo Man,founder of SM Entertainment, in 2011. 
 Originally formed of 8 Korean members and 4 Chinese members, the 12-member group showcased their official debut on April 8, 2012 with their first mini album Mama.
